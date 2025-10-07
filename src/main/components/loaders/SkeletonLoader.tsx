@@ -224,7 +224,7 @@ export default function SkeletonLoader({
   }
 
   return (
-    <div className={`animate-pulse ${className} min-h-screen pb-6 md:pt-6 `}>
+    <div className={`${className} min-h-screen pb-6 md:pt-6 `}>
       {skeletonVariants[variant]()}
     </div>
   )
