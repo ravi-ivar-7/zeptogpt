@@ -1,4 +1,4 @@
-import { Home, Menu, User, Building2} from 'lucide-react'
+import { Home, Menu, User, Building2, Mail} from 'lucide-react'
 
 const menuItems = [
   {
@@ -101,6 +101,12 @@ export const getNavItems = (isAuthenticated) => [
     title: 'About',
     icon: Building2,
     href: '/company/about',
+    hasDropdown: false
+  },
+  {
+    title: 'Contact',
+    icon: Mail,
+    href: '/company/contact',
     hasDropdown: false
   }
 ]

@@ -152,8 +152,21 @@ export default function ComingSoon() {
             </div>
           </div>
 
+          {/* Contact Info */}
+          <div className="mt-8 sm:mt-12 text-center">
+            <p className="text-white/50 text-sm mb-4">
+              Questions? Reach out to us at{' '}
+              <a 
+                href="mailto:contact@zeptogpt.com" 
+                className="text-purple-400 hover:text-purple-300 font-semibold transition-colors"
+              >
+                contact@zeptogpt.com
+              </a>
+            </p>
+          </div>
+
           {/* Back to Home Link */}
-          <div className="mt-8 sm:mt-12">
+          <div className="mt-4">
             <Link
               href="/"
               className="inline-flex items-center space-x-2 text-white/60 hover:text-white/80 transition-colors group text-sm sm:text-base"

@@ -11,10 +11,10 @@ const contactMethods = [
     icon: <Mail className="w-8 h-8" />,
     title: "Email Us",
     description: "Get detailed support via email",
-    contact: `contact@${(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')}`,
+    contact: "contact@zeptogpt.com",
     response: "Within 24 hours",
     gradient: "from-blue-600 to-cyan-600",
-    action: `mailto:contact@${(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')}`
+    action: "mailto:contact@zeptogpt.com"
   },
   // {
   //   icon: <MessageCircle className="w-8 h-8" />,

@@ -52,7 +52,7 @@ function RefundContent() {
             <section>
               <h2 className="text-2xl font-semibold text-white mb-4">4. How to Request a Refund</h2>
               <p className="mb-4">
-                To request a refund, please contact our support team at contact@{(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')} with "Refund Request" in the subject line. Your request should include your account email address, the original purchase date, and a brief explanation of the reason for your refund request.
+                To request a refund, please contact our support team at contact@zeptogpt.com with "Refund Request" in the subject line. Your request should include your account email address, the original purchase date, and a brief explanation of the reason for your refund request.
               </p>
               <p>
                 Our billing team will review your request and may ask for additional information or feedback to help us improve our services. Once approved, refunds will be processed automatically to your original payment method. We appreciate your feedback as it helps us enhance our platform for all users.
@@ -86,7 +86,7 @@ function RefundContent() {
               </p>
               <div className="bg-gray-800/50 p-4 rounded-lg">
                 <p className="text-white font-medium">{process.env.NEXT_PUBLIC_APP_NAME || 'NEXTJS'} Billing Support</p>
-                <p className="text-white/80">Email: <a href="mailto:contact@{(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')}" className="text-cyan-400 hover:text-cyan-300">contact@{(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')}</a></p>
+                <p className="text-white/80">Email: <a href="mailto:contact@zeptogpt.com" className="text-cyan-400 hover:text-cyan-300">contact@zeptogpt.com</a></p>
                 <p className="text-white/80">Subject: Refund Request (for refund inquiries)</p>
               </div>
             </section>

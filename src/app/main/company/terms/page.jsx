@@ -106,7 +106,7 @@ function TermsContent() {
               </p>
               <div className="bg-gray-800/50 p-4 rounded-lg">
                 <p className="text-white font-medium">{process.env.NEXT_PUBLIC_APP_NAME || 'NEXTJS'}</p>
-                <p className="text-white/80">Email: <a href="mailto:contact@{(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')}" className="text-cyan-400 hover:text-cyan-300">contact@{(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000').replace(/^https?:\/\//, '')}</a></p>
+                <p className="text-white/80">Email: <a href="mailto:contact@zeptogpt.com" className="text-cyan-400 hover:text-cyan-300">contact@zeptogpt.com</a></p>
               </div>
             </section>
 

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Contact Email */}
           <div className="text-sm text-gray-400">
-            Contact: <a href="mailto:connect@zeptogpt.com" className="text-white hover:text-purple-400 transition-colors">connect@zeptogpt.com</a>
+            Contact: <a href="mailto:contact@zeptogpt.com" className="text-white hover:text-purple-400 transition-colors">contact@zeptogpt.com</a>
           </div>
           
           {/* Copyright */}

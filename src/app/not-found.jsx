@@ -38,6 +38,17 @@ export default function NotFound() {
           <Home className="w-5 h-5" />
           <span>Go Home</span>
         </Link>
+
+        {/* Contact info */}
+        <p className="text-white/50 text-sm mt-8">
+          Need help?{' '}
+          <a 
+            href="mailto:contact@zeptogpt.com" 
+            className="text-purple-400 hover:text-purple-300 font-semibold transition-colors"
+          >
+            contact@zeptogpt.com
+          </a>
+        </p>
       </div>
     </div>
   )
