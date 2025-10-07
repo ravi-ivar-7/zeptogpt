@@ -10,7 +10,6 @@ import { Button } from '@/main/components/ui/button'
 import { getNavItems } from './navbarData'
 import { Badge } from '@/main/components/ui/badge'
 import { renderDropdownItem } from './NavItemRenderer'
-import { SearchModal } from './SearchModal'
 import { useAuth } from '@/main/hooks/useAuth'
 
 export function DesktopNavbar() {
@@ -206,12 +205,6 @@ export function DesktopNavbar() {
       </div>
     </nav>
     
-    <SearchModal 
-      isOpen={isSearchOpen} 
-      onClose={() => setIsSearchOpen(false)} 
-      user={user}
-      isAuthenticated={isAuthenticated}
-    />
   </>
   )
 }

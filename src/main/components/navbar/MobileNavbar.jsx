@@ -9,7 +9,6 @@ import {
 import { Button } from '@/main/components/ui/button'
 
 import { renderDropdownItem } from './NavItemRenderer'
-import { SearchModal } from './SearchModal'
 import { getNavItems } from './navbarData'
 import { useAuth } from '@/main/hooks/useAuth'
 
@@ -168,13 +167,6 @@ export function MobileNavbar() {
           </div>
         </div>
       </nav>
-
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        user={user}
-        isAuthenticated={isAuthenticated}
-      />
     </>
   )
 }
