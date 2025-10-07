@@ -74,10 +74,10 @@ export default function PromptCategories() {
     <div className="mb-12 sm:mb-16 px-4 sm:px-0">
       <div className="text-center mb-8 sm:mb-12">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent">
-          Explore Prompt Categories
+          Explore Workflow Categories
         </h2>
         <p className="text-base sm:text-lg text-white/70 max-w-2xl mx-auto">
-          Discover premium prompts across every use case
+          Discover premium workflows across every use case
         </p>
       </div>
       
@@ -96,7 +96,7 @@ export default function PromptCategories() {
                 {category.name}
               </h3>
               <p className="text-xs sm:text-sm text-purple-400 font-medium mb-2 text-center">
-                {category.count} prompts
+                {category.count} workflows
               </p>
               <p className="text-xs text-white/60 text-center">
                 {category.description}

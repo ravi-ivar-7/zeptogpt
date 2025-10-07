@@ -64,16 +64,13 @@ export default function ComingSoon() {
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black mb-4 sm:mb-6 leading-tight">
-            <span className="block bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent drop-shadow-2xl animate-fade-in">
-              Coming
-            </span>
-            <span className="block bg-gradient-to-r from-cyan-200 via-blue-300 to-purple-300 bg-clip-text text-transparent drop-shadow-2xl mt-1 animate-fade-in delay-200">
-              Soon
+            <span className="bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent drop-shadow-2xl animate-fade-in">
+              Coming Soon
             </span>
           </h1>
 
           <p className="text-lg sm:text-xl lg:text-2xl text-white/80 mb-3 sm:mb-4 leading-relaxed max-w-2xl mx-auto font-light animate-fade-in delay-300">
-            World's fastest AI prompt marketplace
+            World's fastest AI workflow marketplace
           </p>
           
           <p className="text-sm sm:text-base lg:text-lg text-white/60 mb-8 sm:mb-10 leading-relaxed max-w-xl mx-auto animate-fade-in delay-300">
@@ -141,17 +138,17 @@ export default function ComingSoon() {
             <div className="group p-6 bg-gradient-to-br from-purple-900/30 via-black/40 to-black/40 backdrop-blur-xl border border-purple-500/30 rounded-2xl hover:border-purple-400/60 transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/30">
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-lg font-bold text-white mb-2">Instant Execution</h3>
-              <p className="text-sm text-white/60">Execute prompts in &lt;2 seconds</p>
+              <p className="text-sm text-white/60">Execute workflows in &lt;2 seconds</p>
             </div>
             <div className="group p-6 bg-gradient-to-br from-blue-900/30 via-black/40 to-black/40 backdrop-blur-xl border border-blue-500/30 rounded-2xl hover:border-blue-400/60 transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/30">
               <div className="text-4xl mb-4">🛍️</div>
-              <h3 className="text-lg font-bold text-white mb-2">Premium Prompts</h3>
-              <p className="text-sm text-white/60">10,000+ curated prompts</p>
+              <h3 className="text-lg font-bold text-white mb-2">Premium Workflows</h3>
+              <p className="text-sm text-white/60">10,000+ curated workflows</p>
             </div>
             <div className="group p-6 bg-gradient-to-br from-green-900/30 via-black/40 to-black/40 backdrop-blur-xl border border-green-500/30 rounded-2xl hover:border-green-400/60 transition-all duration-500 hover:scale-105 hover:-translate-y-2 hover:shadow-xl hover:shadow-green-500/30">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-lg font-bold text-white mb-2">Earn Money</h3>
-              <p className="text-sm text-white/60">Sell your best prompts</p>
+              <p className="text-sm text-white/60">Sell your best workflows</p>
             </div>
           </div>
 

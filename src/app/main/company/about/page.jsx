@@ -9,27 +9,27 @@ const aboutSections = [
     icon: <Target className="w-6 h-6" />,
     title: "Our Mission",
     content: [
-      "Democratize access to premium AI prompts for everyone",
-      "Empower prompt engineers to monetize their expertise",
+      "Democratize access to premium AI workflows for everyone",
+      "Empower AI creators to monetize their expertise",
       "Deliver instant AI results without the copy-paste hassle",
-      "Build the fastest AI prompt execution platform in the world"
+      "Build the fastest AI workflow execution platform in the world"
     ]
   },
   {
     icon: <Zap className="w-6 h-6" />,
     title: "What We Offer",
     content: [
-      "10,000+ curated premium prompts across all categories",
+      "10,000+ curated premium workflows across all categories",
       "One-click execution with sub-2 second response times",
       "Multi-model support: GPT-4, Claude, Gemini, and more",
-      "Fair marketplace for creators to earn from their prompts"
+      "Fair marketplace for creators to earn from their workflows"
     ]
   },
   {
     icon: <Users className="w-6 h-6" />,
     title: "Our Community",
     content: [
-      "5,000+ active prompt engineers and sellers",
+      "5,000+ active AI creators and sellers",
       "50,000+ satisfied users across 100+ countries",
       "98% satisfaction rate with our execution engine",
       "Growing ecosystem of AI enthusiasts and professionals"
@@ -39,8 +39,8 @@ const aboutSections = [
     icon: <Rocket className="w-6 h-6" />,
     title: "Why ZepToGPT?",
     content: [
-      "Instant execution - no more copy-pasting prompts",
-      "Quality curation - only the best prompts make it through",
+      "Instant execution - no more copy-pasting workflows",
+      "Quality curation - only the best workflows make it through",
       "Fair pricing - transparent fees and creator earnings",
       "Lightning fast - zepto-second execution speeds"
     ]
@@ -69,11 +69,11 @@ function AboutContent() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4 leading-tight">
             About ZepToGPT
             <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
-              The Future of AI Prompts
+              The Future of AI Workflows
             </span>
           </h1>
           <p className="text-base sm:text-lg text-white/80 max-w-3xl mx-auto">
-            We're building the world's fastest AI prompt marketplace. Buy premium prompts, execute them instantly, and get results in zepto seconds.
+            We're building the world's fastest AI workflow marketplace. Buy premium workflows, execute them instantly, and get results in zepto seconds.
           </p>
         </div>
 
@@ -105,14 +105,14 @@ function AboutContent() {
         <div className="mt-8 sm:mt-12 bg-gradient-to-br from-gray-900/80 to-black/90 backdrop-blur-xl border border-white/20 rounded-2xl p-4 sm:p-6 text-center">
           <h2 className="text-xl sm:text-2xl font-black text-white mb-3">Join Our Marketplace</h2>
           <p className="text-white/70 text-sm sm:text-base mb-4">
-            Ready to buy premium prompts or start selling your own? Join thousands of creators and users today.
+            Ready to buy premium workflows or start selling your own? Join thousands of creators and users today.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a 
               href="/"
               className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold px-6 py-3 rounded-xl hover:scale-105 transition-all duration-300 text-sm"
             >
-              <span>Browse Prompts</span>
+              <span>Browse Workflows</span>
             </a>
             <a 
               href="/company/contact"

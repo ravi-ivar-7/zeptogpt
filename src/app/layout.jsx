@@ -3,6 +3,7 @@ import AuthProvider from '@/main/hooks/useAuth'
 import ToastContainer from '@/main/components/toast/ToastContainer'
 import { NavbarProvider } from '@/main/hooks/useNavbar'
 import { NavbarLayout } from '@/main/components/navbar/NavbarLayout'
+import Footer from '@/main/components/footer/fotter'
 import './globals.css'
 
 const inter = Inter({
@@ -12,12 +13,12 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'ZepToGPT - Premium AI Prompts Marketplace | Buy, Sell & Execute Prompts Instantly',
-  description: 'Discover and execute premium AI prompts in zepto seconds. Buy curated prompts for marketing, coding, writing, and more. Monetize your prompt engineering skills by selling to thousands of users.',
-  keywords: 'AI prompts, GPT prompts, prompt marketplace, buy prompts, sell prompts, AI marketplace, prompt engineering, ChatGPT prompts, Claude prompts',
+  title: 'ZepToGPT - Premium AI Workflows Marketplace | Buy, Sell & Execute Workflows Instantly',
+  description: 'Discover and execute premium AI workflows in zepto seconds. Buy curated workflows for marketing, coding, writing, and more. Monetize your AI creation skills by selling to thousands of users.',
+  keywords: 'AI workflows, GPT workflows, workflow marketplace, buy workflows, sell workflows, AI marketplace, AI automation, ChatGPT workflows, Claude workflows',
   openGraph: {
-    title: 'ZepToGPT - Premium AI Prompts Marketplace',
-    description: 'Buy, sell, and execute AI prompts instantly. Get results in zepto seconds.',
+    title: 'ZepToGPT - Premium AI Workflows Marketplace',
+    description: 'Buy, sell, and execute AI workflows instantly. Get results in zepto seconds.',
     type: 'website',
   },
 }
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <AuthProvider>
           <NavbarProvider>
             <NavbarLayout>{children}</NavbarLayout>
+            <Footer />
             <ToastContainer />
           </NavbarProvider>
         </AuthProvider>
